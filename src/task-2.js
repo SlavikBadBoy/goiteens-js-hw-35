@@ -1,6 +1,6 @@
 let time = 30;
-let timerElement = document.querySelector(".timer");
-let animationElement = document.querySelector(".animation");
+const timerElement = document.querySelector(".timer");
+const animationElement = document.querySelector(".animation");
 
 let timer = setInterval(() => {
   time--;
