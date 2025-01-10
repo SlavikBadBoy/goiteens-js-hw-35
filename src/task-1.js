@@ -7,7 +7,6 @@ const formatTime = (totalSeconds) => {
   return `${hour}:${minute}:${second}`;
 };
 let timerId = setInterval(function () {
-  
   seconds -= 1;
   if (seconds === 1800) {
     alert("залишилося менше половини часу!");
